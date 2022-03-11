@@ -1,0 +1,32 @@
+<html>
+    <head>
+<title>Pepe Clicker</title>
+    </head>
+
+<body>
+        <img src="pepe.png" id = "pepe" onclick = "incresement()">
+        <p>Pepe clicked: <span id="counter">0</span></p>
+        <button id="reset" onclick = "reset()">Reset</button>
+        <button onclick="buyCursor()">Cursor [</span id="cursorcost">15</span>] -- <span id="cursors">0</span></button>
+</body>
+
+<script>
+        var clicks = 0;
+        function incresement(){
+            clicks = clicks + 1;
+            counter.innerHTML = clicks;
+        }
+        function reset(){
+            clicks = 0;
+            counter.innerHTML = clicks;
+        }
+        var cursorCost = 15;
+        var cursors = 0;
+        function buyCursor() {
+            if (clicks >= cursorCost)
+            clicks = clicks - cursorCost;
+        }
+</script>
+
+
+</html>
