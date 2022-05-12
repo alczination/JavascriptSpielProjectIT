@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    background-color: #9bc4e0;
+}
+canvas {
+    border:2px solid #c4dfe6;
+    background-color: #66a5ad;
+    border-radius: 0.5%;
+}
+.button {
+    background-color: #c4dfe6;
+  border: none;
+  color: #07575b;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+.Buttons {
+    border:9px solid #000000;
+    background-color: #02182c;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #07575b;
+    background-color: #c4dfe6;
+    text-align: center;
+    height: 40px;
+    left: 0;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+h1{
+    border:2px solid #c4dfe6;
+    border-radius: 2%;
+    text-align: center;
+    padding: 15px 32px;
+    display: inline-block;
+}
